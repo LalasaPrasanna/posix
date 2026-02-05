@@ -21,6 +21,6 @@ int main() {
 
     pthread_mutex_destroy(&mutex);
 
-    printf("%d\n", counter);
+    printf("Counter value: %d\n", counter);
     return 0;
 }
